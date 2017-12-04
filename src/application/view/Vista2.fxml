@@ -5,16 +5,15 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
-<AnchorPane prefHeight="400.0" prefWidth="400.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.141">
+<AnchorPane prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.view.Controlador02">
    <children>
       <ImageView fitHeight="600.0" fitWidth="700.0" layoutY="-8.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../img/linux_and_windows.jpg" />
          </image>
       </ImageView>
-      <JFXButton layoutX="238.0" layoutY="367.0" prefHeight="31.0" prefWidth="224.0" style="-fx-background-color: red;" text="efectos" />
-      <ImageView fitHeight="191.0" fitWidth="243.0" layoutX="47.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+      <JFXButton fx:id="idEfectos" layoutX="238.0" layoutY="367.0" prefHeight="31.0" prefWidth="224.0" style="-fx-background-color: red;" text="efectos" />
+      <ImageView fx:id="idImagen" fitHeight="191.0" fitWidth="243.0" layoutX="47.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../img/burbujas.jpg" />
          </image>
